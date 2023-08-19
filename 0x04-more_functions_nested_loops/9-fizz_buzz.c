@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*main - main function
+*main - Fizz-Buzz program
 *Return: 0;
 */
 
@@ -12,11 +12,11 @@ int i;
 for (i = 1 ; i <= 100 ; i++)
 {
 if ((i % 3 == 0) && (i % 5 == 0))
-printf("%s", "FizzBuzz ");
+printf("FizzBuzz ");
 else if (i % 3 == 0)
-printf("%s", "Fizz ");
+printf("Fizz ");
 else if (i % 5 == 0)
-printf("%s", "Buzz ");
+printf("Buzz ");
 else
 printf("%d ", i);
 }
